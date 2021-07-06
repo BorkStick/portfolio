@@ -1,11 +1,18 @@
-#about-container {
+#home {
+    padding: 100px 0px 100px 0px;
+}
+#home h1 {
+    font-size: 8em;
+}
+
+#about {
     padding: 50px 0px 100px 0px;
 }
 
-#skills-container {
+#skills{
     padding: 50px 50px 100px 50px;
 }
 
-#projects-container {
+#projects {
     padding: 50px 0px 100px 0px;
 }
