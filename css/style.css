@@ -1,18 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Open+Sans&family=Roboto:wght@300&display=swap');
+
 #home {
     padding: 100px 0px 100px 0px;
 }
-#home h1 {
+
+#name {
+    padding: 100px 0px 100px 0px;
+}
+
+#name h1 {
     font-size: 8em;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 700;
 }
 
 #about {
     padding: 50px 0px 100px 0px;
 }
 
-#skills{
+#skills {
     padding: 50px 50px 100px 50px;
 }
 
 #projects {
     padding: 50px 0px 100px 0px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
 }
