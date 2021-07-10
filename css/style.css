@@ -30,3 +30,9 @@ p {
     font-family: 'Roboto', sans-serif;
     font-size: 1.2em;
 }
+
+.card a {
+    text-decoration: none;
+    color: #000;
+
+}
