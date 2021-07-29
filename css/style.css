@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Open+Sans&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;700&display=swap');
+
 
 :root {
-    --dark01:black;
-    --dark02: #282a36; 
-    --light01:#fff;
-    --light02: #282a36; 
+    --dark01: black;
+    --dark02: #282a36;
+    --light01: #fff;
+    --light02: #282a36;
     --bg: #fff;
     --fg: #000;
-    --grey: grey; 
+    --grey: grey;
     --white: white;
     --red: #ff5555;
     --green: #50fa7b;
@@ -20,35 +22,36 @@
 }
 
 .dark-mode {
-  --base04:black;
-  --bg: #000;
+    --base04: black;
+    --bg: #000;
     --fg: #fff;
-  --bg2: #44475a;
-  --dark1: grey;
-  --dark2: grey;
-  --base01: grey;
-  --base00: grey;
-  --base0: white;
-  --base1: grey;
-  --base2: white;
-  --base3: white;
-  --red: #ff5555;
-  --green: #50fa7b;
-  --yellow: yellow;
-  --blue: blue;
-  --magenta: #ff79c6;
-  --cyan: #8be9fd;
-  --orange: #ffb86c;
-  --purple: #bd93f9;
-  
+    --bg2: #44475a;
+    --dark1: grey;
+    --dark2: grey;
+    --base01: grey;
+    --base00: grey;
+    --base0: white;
+    --base1: grey;
+    --base2: white;
+    --base3: white;
+    --red: #ff5555;
+    --green: #50fa7b;
+    --yellow: yellow;
+    --blue: blue;
+    --magenta: #ff79c6;
+    --cyan: #8be9fd;
+    --orange: #ffb86c;
+    --purple: #bd93f9;
+
 }
 
 body {
-    
+
     background-color: var(--bg);
     color: var(--fg);
 
-  }
+
+}
 
 
 .navbar {
@@ -74,6 +77,12 @@ body {
     font-size: 8em;
     font-family: 'Noto Sans JP', sans-serif;
     font-weight: 700;
+}
+
+#name h3 {
+
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 500;
 }
 
 #contact {
@@ -112,8 +121,42 @@ p {
     text-align: center;
     text-decoration: none;
     color: #fff;
-  }
+}
 
+.project h2 {
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.project h3 {
+    font-size: 1.2em;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.badge {
+    background-color: #df0e4d;
+    padding: 8px;
+
+}
+
+#tech-used {
+    font-family: 'IBM Plex Mono', monospace;
+    padding: 0px 0px 1000px 0px;
+}
+
+#tech-used li {
+    list-style: none;
+    float: left;
+    padding: 0px 5px;
+
+}
+
+#tech-used a {
+
+    text-decoration: none;
+
+
+
+}
 
 
 .footer {
@@ -124,4 +167,4 @@ p {
     background-color: var(--fg);
     color: var(--bg);
     text-align: center;
-  }
+}
