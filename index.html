@@ -23,7 +23,7 @@
       <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="#home">Home</a>
+            <a class="nav-link" href="/">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#about">About</a>
@@ -53,7 +53,11 @@
       <h1 class="">TYLOR WURZ</h1>
       <h3>Full-Stack Web Developer</h3>
     </div>
-    <div class="container-fluid" id="home">
+  </section>
+
+  <!-- ***HOME*** -->
+  <section>
+    <div class="container" id="home">
       <div class="row">
         <img src='./assets/img/borkstick300.gif' alt='' class="col" />
         <p class="col">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam quisquam sit quo? Rem,
@@ -63,13 +67,28 @@
           maxime repellat molestiae tempora.</p>
       </div>
     </div>
+    <button onclick="myFunction()">Toggle dark mode</button>
   </section>
 
   <!-- ***SKILLS*** -->
   <section>
     <div class="container-fluid bg-dark text-white" id="skills">
       <h1 class="text-center">SKILLS</h1>
-      <h3>Lorem, ipsum.</h3>
+      <h3>HTML | CSS | JS</h3>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam quisquam sit quo? Rem, reiciendis officia
+        natus
+        animi, esse, sunt quidem eos est adipisci tenetur quaerat repellat ipsa enim qui ratione? Lorem ipsum, dolor sit
+        amet consectetur adipisicing elit. Deleniti nihil ratione nisi excepturi animi culpa adipisci tempora. Optio et
+        consequuntur labore, excepturi laborum, exercitationem repudiandae impedit, maxime repellat molestiae tempora.
+      </p>
+      <h3>Linux</h3>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam quisquam sit quo? Rem, reiciendis officia
+        natus
+        animi, esse, sunt quidem eos est adipisci tenetur quaerat repellat ipsa enim qui ratione? Lorem ipsum, dolor sit
+        amet consectetur adipisicing elit. Deleniti nihil ratione nisi excepturi animi culpa adipisci tempora. Optio et
+        consequuntur labore, excepturi laborum, exercitationem repudiandae impedit, maxime repellat molestiae tempora.
+      </p>
+      <h3>WordPress</h3>
       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam quisquam sit quo? Rem, reiciendis officia
         natus
         animi, esse, sunt quidem eos est adipisci tenetur quaerat repellat ipsa enim qui ratione? Lorem ipsum, dolor sit
@@ -81,12 +100,13 @@
 
   <!-- ***PROJECTS*** -->
   <section>
-    <div class="container-fluid" id="projects">
+    <div class="container px-5 " id="projects">
       <h1 class="text-center">PROJECTS</h1>
       <div class="row">
         <div class="card col" style="width: 18rem;">
-          <a href="https://borkstick.github.io/succulent-page/">
-            <img src="./assets/img/succulent.png" class="card-img-top" alt="...">
+          <a href="./projects/succulent.html">
+            <img src="./assets/img/projects/succulent.png" class="card-img-top" alt="..."
+              style="height: 300px; width: 100%;">
             <div class="card-body">
               <h6>succulent</h6>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
@@ -95,12 +115,16 @@
           </a>
         </div>
         <div class="card col" style="width: 18rem;">
-          <img src="http://fakeimg.pl/300x300?font=lobster" class="card-img-top" alt="...">
-          <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
-          </div>
+          <a href="./projects/project-template.html">
+            <img src="./assets/img/succulent.png" class="card-img-top" alt="..." style="height: 300px; width: 300px;">
+            <div class="card-body">
+              <h6>project template</h6>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </a>
         </div>
+
         <div class="card col" style="width: 18rem;">
           <img src="http://placeskull.com/300" class="card-img-top" alt="...">
           <div class="card-body">
@@ -148,6 +172,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
   </script>
+  <script src="./js/main.js"></script>
 </body>
 
 </html>

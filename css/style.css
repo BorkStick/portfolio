@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Open+Sans&family=Roboto:wght@300&display=swap');
 
+.nav-link {
+    font-size: 1.2em;
+}
+
 #home {
     padding: 100px 0px 100px 0px;
 }
@@ -36,3 +40,15 @@ p {
     color: #000;
 
 }
+
+body {
+    
+    background-color: white;
+    color: black;
+
+  }
+  
+  .dark-mode {
+    background-color: black;
+    color: white;
+  }
