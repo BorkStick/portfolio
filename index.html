@@ -7,6 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
   <link rel="stylesheet" href="/css/style.css" />
   <title>Portfolio</title>
 </head>
@@ -60,11 +62,13 @@
     <div class="container" id="home">
       <div class="row">
         <img src='./assets/img/borkstick300.gif' alt='' class="col" />
-        <p class="col">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam quisquam sit quo? Rem,
-          reiciendis officia natus animi, esse, sunt quidem eos est adipisci tenetur quaerat repellat ipsa enim qui
-          ratione? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti nihil ratione nisi excepturi animi
-          culpa adipisci tempora. Optio et consequuntur labore, excepturi laborum, exercitationem repudiandae impedit,
-          maxime repellat molestiae tempora.</p>
+        <p class="col">My name is Tylor Wurz
+
+          For people that know me, I am the goto computer guy.
+
+          I gained my love for WordPress working as Technical Support for WP Engine.
+
+          I am always happy to help no matter the technical problem</p>
       </div>
     </div>
     <button onclick="myFunction()">Toggle dark mode</button>
@@ -116,7 +120,8 @@
         </div>
         <div class="card col" style="width: 18rem;">
           <a href="./projects/tip-calculator.html">
-            <img src="./assets/img/projects/tip-calculator.png" class="card-img-top" alt="..." style="height: 300px; width: 300px;">
+            <img src="./assets/img/projects/tip-calculator.png" class="card-img-top" alt="..."
+              style="height: 300px; width: 300px;">
             <div class="card-body">
               <h6>tip calculator</h6>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
@@ -127,7 +132,8 @@
 
         <div class="card col" style="width: 18rem;">
           <a href="./projects/todo-list.html">
-            <img src="./assets/img/projects/todo-list.gif" class="card-img-top" alt="..." style="height: 300px; width: 300px;">
+            <img src="./assets/img/projects/todo-list.gif" class="card-img-top" alt="..."
+              style="height: 300px; width: 300px;">
             <div class="card-body">
               <h6>todo list</h6>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
@@ -139,27 +145,51 @@
     </div>
   </section>
 
-  <!-- ***ABOUT*** -->
+  <!-- ***social*** -->
+  <section>
+    <div class="container-fluid text-center bg-dark" id="social">
+      <h1 class="">Social</h1>
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <!-- github -->
+          <a href="https://github.com/borkstick" class="bi bi-github"></a>
+
+        </li>
+        <li class="nav-item">
+          <!-- linkedin -->
+          <a href="https://www.linkedin.com/in/tylor-wurz-9a5bab20/" class="bi bi-linkedin"></a>
+        </li>
+        <li class="nav-item">
+          <!-- instagram -->
+          <a href="https://www.instagram.com/tylorwurz/" class="bi bi-instagram"></a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+
+  <!-- ***Contact*** -->
   <section>
     <div class="container-fluid text-center bg-light" id="about">
-      <h1 class="">ABOUT</h1>
-      <h3>me nombre es tylor </h3>
-      <div class="row">
-        <img src='http://lorempixel.com/500/500' alt='' class="col" />
-        <p class="col">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam quisquam sit quo? Rem,
-          reiciendis
-          officia natus animi, esse, sunt quidem eos est adipisci tenetur quaerat repellat ipsa enim qui ratione? Lorem
-          ipsum, dolor sit amet consectetur adipisicing elit. Deleniti nihil ratione nisi excepturi animi culpa adipisci
-          tempora. Optio et consequuntur labore, excepturi laborum, exercitationem repudiandae impedit, maxime repellat
-          molestiae tempora.</p>
-      </div>
+      <h1 class="">Contact</h1>
+      <form class="px-5">
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Email address</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Example textarea</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
     </div>
   </section>
 
 
   <!-- ***FOOTER*** -->
   <footer class="container-fluid footer justify-content-center text-center">
-    
+
     <p>&copy;2021 Tylor Wurz</p>
   </footer>
 
