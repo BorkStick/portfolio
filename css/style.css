@@ -1,24 +1,63 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Open+Sans&family=Roboto:wght@300&display=swap');
 
+:root {
+    --dark01:black;
+    --dark02: #282a36; 
+    --light01:#fff;
+    --light02: #282a36; 
+    --bg: #fff;
+    --fg: #000;
+    --grey: grey; 
+    --white: white;
+    --red: #ff5555;
+    --green: #50fa7b;
+    --yellow: yellow;
+    --blue: blue;
+    --magenta: #ff79c6;
+    --cyan: #8be9fd;
+    --orange: #ffb86c;
+    --purple: #bd93f9;
+}
+
+.dark-mode {
+  --base04:black;
+  --bg: #000;
+    --fg: #fff;
+  --bg2: #44475a;
+  --dark1: grey;
+  --dark2: grey;
+  --base01: grey;
+  --base00: grey;
+  --base0: white;
+  --base1: grey;
+  --base2: white;
+  --base3: white;
+  --red: #ff5555;
+  --green: #50fa7b;
+  --yellow: yellow;
+  --blue: blue;
+  --magenta: #ff79c6;
+  --cyan: #8be9fd;
+  --orange: #ffb86c;
+  --purple: #bd93f9;
+  
+}
+
 body {
     
-    background-color: white;
-    color: black;
+    background-color: var(--bg);
+    color: var(--fg);
 
   }
 
-  .dark-mode {
-    background-color: #282a36;
-    color: white;
-  }
 
 .navbar {
-    background-color: black;
+    background-color: var(--fg);
 }
 
 .nav-link {
     font-size: 1.3em;
-    color: #fff;
+    color: var(--bg);
 }
 
 
@@ -37,7 +76,7 @@ body {
     font-weight: 700;
 }
 
-#about {
+#contact {
     padding: 50px 0px 100px 0px;
 }
 
@@ -82,7 +121,7 @@ p {
     bottom: 0;
     width: 100%;
     height: 50px;
-    background-color: #000;
-    color: white;
+    background-color: var(--fg);
+    color: var(--bg);
     text-align: center;
   }
